@@ -24,12 +24,7 @@ responsive for all devices, built using **`HTML`**, **`CSS`**, **`JavaScript`**,
 
 ---
 
-<div align="center">
 
-![Demo][demo]
-**`Live Demo:`** 👉🏽 [personal-portfolio.github.io][devfolio]
-
-</div>
 
 ## **How to make it yours?**
 
@@ -105,11 +100,6 @@ Your personal portfolio will be built and updated automatically whenever any cha
 
 > [!NOTE]
 > If you like my work and want to show some ❤️, please consider giving a ⭐️ to this Repository.
-
-## Screenshots
-
-![Desktop Demo][desktop-screenshot]
-![Mobile Demo][mobile-screenshot]
 
 ## Contribute
 
