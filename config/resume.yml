@@ -70,3 +70,18 @@ LANGUAGES:
       proficiency: "80%"
     - language: "Chinese - Mandarin"
       proficiency: "60%"
+
+SKILLS:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: true
+  label: "My Skills"
+  items:
+    - skill: "Web Design"
+      proficiency: "80%"
+    - skill: "Graphic Design"
+      proficiency: "70%"
+    - skill: "Branding"
+      proficiency: "90%"
+    - skill: "WordPress"
+      proficiency: "50%"
