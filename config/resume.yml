@@ -5,18 +5,44 @@ EDUCATION:
   enabled: true
   label: "Education"
   items:
-    - period: "2002 — 2004"
-      institution: "High School of Art and Design"
-      description: "Graduated with honors, focusing on visual arts and design principles. Participated in multiple student exhibitions, honing skills in drawing, painting, and graphic design."
-    - period: "2005 — 2007"
-      institution: "Brooklyn Technical High School"
-      description: "Completed coursework in computer science and digital media, with a particular focus on web development and programming. Collaborated on projects involving coding and design integration."
-    - period: "2006 — 2007"
-      institution: "New York Academy of Art"
-      description: "Studied fine arts with a focus on sculpture and advanced painting techniques. Took part in workshops and intensive studio sessions, receiving feedback from industry professionals."
-    - period: "2007 — 2008"
-      institution: "University School of the Arts"
-      description: "Pursued a Bachelor of Fine Arts degree, specializing in interactive media and digital design. Graduated with a portfolio of projects blending traditional art forms with emerging technologies."
+    - period: "01/2024 - 05/2027"
+      institution: "San Jose State University"
+      logo: "./config/assets/icons/nehs.png"
+      description: |
+        M.S. in Artificial Intelligence — Expected May 2027
+        GPA: 3.95/4.0
+        Online graduate program designed for full-time working professionals, led by Professor Wencen Wu.
+      coursework:
+        - "Python"
+        - "C++"
+        - "Machine Learning"
+        - "Data Engineering"
+        - "Data Mining"
+        - "Deep Learning"
+        - "Reinforcement Learning"
+        - "Natural Language Processing"
+        - "Intelligent Autonomous System"
+        - "Cloud Technologies"
+    - period: "08/2018 - 05/2022"
+      institution: "San Jose State University"
+      logo: "./config/assets/icons/chalmers.jpeg"
+      description: |
+        B.S in Software Engineering 
+        GPA: 3.58/4.0
+        Graduated Cum Laude
+        Dean's Scholar
+        First-Generation College Graduate
+      coursework:
+        - "Java"
+        - "Data Structures & Algorithms"
+        - "Operating Systems"
+        - "Object Oriented Programming"
+        - "Assembly"
+        - "Computer Architecture"
+        - "Computer Networks"
+        - "Database Management"
+        - "Information Security"
+        - "Software Design"
 
 EXPERIENCE:
   enabled: true
@@ -38,22 +64,9 @@ LANGUAGES:
   display_percentage_values: true
   label: "Languages"
   items:
-    - language: "Inglés"
-      proficiency: "60%"
-    - language: "Francés"
-      proficiency: "40%"
-
-SKILLS:
-  enabled: true
-  display_progress_bars: true
-  display_percentage_values: true
-  label: "My Skills"
-  items:
-    - skill: "Web Design"
+    - language: "English"
+      proficiency: "100%"
+    - language: "Chinese - Cantonese"
       proficiency: "80%"
-    - skill: "Graphic Design"
-      proficiency: "70%"
-    - skill: "Branding"
-      proficiency: "90%"
-    - skill: "WordPress"
-      proficiency: "50%"
+    - language: "Chinese - Mandarin"
+      proficiency: "60%"
