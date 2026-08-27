@@ -69,3 +69,16 @@ TECHNOLOGIES:
       icon: "config/assets/icons/jupyter.svg"
     - title: "Linux"
       icon: "config/assets/icons/linux.svg"
+
+LANGUAGES:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: true
+  label: "Languages"
+  items:
+    - language: "English"
+      proficiency: "100%"
+    - language: "Chinese - Cantonese"
+      proficiency: "80%"
+    - language: "Chinese - Mandarin"
+      proficiency: "60%"
