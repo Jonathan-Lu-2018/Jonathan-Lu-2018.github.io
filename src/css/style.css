@@ -233,7 +233,7 @@ article {
 
 article.active {
   display: block;
-  animation: fade 0.5s ease backwards;
+  opacity: 1;
 }
 
 @keyframes fade {
@@ -1675,7 +1675,6 @@ textarea.form-input::-webkit-resizer {
    * #PORTFOLIO, BLOG 
    */
 
-  .project-img,
   .blog-banner-box {
     height: auto;
   }
@@ -2284,6 +2283,10 @@ textarea.form-input::-webkit-resizer {
     min-width: 75%;
     width: 75%;
     margin: 0;
+  }
+
+  .main-content > article {
+    width: 100%;
   }
 
   /**
