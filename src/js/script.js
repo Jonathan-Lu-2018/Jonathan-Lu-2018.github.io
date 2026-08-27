@@ -115,6 +115,43 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 
 
+// project detail modal variables
+const projectItems = document.querySelectorAll("[data-modal-target]");
+const projectModals = document.querySelectorAll("[data-modal]");
+const projectModalCloseBtns = document.querySelectorAll("[data-modal-close]");
+
+const closeProjectModals = function () {
+  for (let i = 0; i < projectModals.length; i++) {
+    projectModals[i].classList.remove("active");
+  }
+}
+
+for (let i = 0; i < projectItems.length; i++) {
+  const projectLink = projectItems[i].querySelector(".project-link");
+
+  projectLink.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    const modal = document.getElementById(projectItems[i].dataset.modalTarget);
+
+    if (modal) {
+      modal.classList.add("active");
+    }
+  });
+}
+
+for (let i = 0; i < projectModalCloseBtns.length; i++) {
+  projectModalCloseBtns[i].addEventListener("click", closeProjectModals);
+}
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Escape") {
+    closeProjectModals();
+  }
+});
+
+
+
 // contact form variables
 const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
