@@ -3,26 +3,28 @@ HEADER:
 
 PRESENTATION:
   description: |
-    I'm a software engineer from the Bay Area, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-    My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+    I'm a Software Engineer based in the San Francisco Bay Area, passionate about Backend Development, Cloud Engineering, and Artificial Intelligence, with experience in cloud infrastructure, software development, automation, and AI-powered applications.
+    I graduated from San José State University with a B.S. in Software Engineering and am currently pursuing an M.S. in Artificial Intelligence.
+    Currently, I work as a Software Engineer at PwC, where I build and support solutions across Azure and AWS, full-stack applications, infrastructure automation, and Generative AI. My interests lie in backend engineering, AI-powered applications, and building scalable software systems.
+    Outside of work, I enjoy running, playing badminton and basketball, and supporting Bay Area sports teams.
+    Feel free to connect and get in touch with me! :)
 
 DOING:
   enabled: true
-  label: "What I'm doing"
-  items:
-    - title: "Mobile Apps"
-      icon: "config/assets/icons/mobile.svg"
-      description: "Professional development of applications for iOS and Android."
-    - title: "Scripting"
-      icon: "config/assets/icons/code.svg"
-      description: "Automation and task scripting using Python to enhance efficiency and productivity."
-    - title: "UI/UX Designing"
-      icon: "config/assets/icons/compass.svg"
-      description: "Intuitive and visually appealing user interfaces and user experiences."
-    - title: "Web Development"
-      icon: "config/assets/icons/laptop-code.svg"
-      description: "High-quality development of sites at the professional level."
+#  label: "What I'm doing"
+#  items:
+#   - title: "Mobile Apps"
+#     icon: "config/assets/icons/mobile.svg"
+#      description: "Professional development of applications for iOS and Android."
+#    - title: "Scripting"
+#     icon: "config/assets/icons/code.svg"
+#     description: "Automation and task scripting using Python to enhance efficiency and productivity."
+#   - title: "UI/UX Designing"
+#     icon: "config/assets/icons/compass.svg"
+#     description: "Intuitive and visually appealing user interfaces and user experiences."
+#   - title: "Web Development"
+#      icon: "config/assets/icons/laptop-code.svg"
+#      description: "High-quality development of sites at the professional level."
 
 SKILLS:
   enabled: true
@@ -47,12 +49,8 @@ TECHNOLOGIES:
   items:
     - title: "Python"
       icon: "config/assets/icons/python.svg"
-    - title: "Flutter"
-      icon: "config/assets/icons/flutter.svg"
     - title: "Git"
       icon: "config/assets/icons/git.svg"
-    - title: "Figma"
-      icon: "config/assets/icons/figma.svg"
     - title: "Firebase"
       icon: "config/assets/icons/firebase.svg"
     - title: "Pandas"
@@ -69,3 +67,18 @@ TECHNOLOGIES:
       icon: "config/assets/icons/jupyter.svg"
     - title: "Linux"
       icon: "config/assets/icons/linux.svg"
+
+LANGUAGES:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: true
+  label: "Languages"
+  items:
+    - language: "English"
+      proficiency: "100%"
+    - language: "Chinese - Cantonese"
+      proficiency: "80%"
+    - language: "Chinese - Mandarin"
+      proficiency: "60%%"
+    - language: "Vietnamese"
+      proficiency: "30%"
