@@ -5,24 +5,6 @@ EDUCATION:
   enabled: true
   label: "Education"
   items:
-    - period: "01/2024 - 05/2027"
-      institution: "San Jose State University"
-      logo: "./config/assets/icons/nehs.png"
-      description: |
-        M.S. in Artificial Intelligence — Expected May 2027
-        GPA: 3.95/4.0
-        Online graduate program designed for full-time working professionals, led by Professor Wencen Wu.
-      coursework:
-        - "Python"
-        - "C++"
-        - "Machine Learning"
-        - "Data Engineering"
-        - "Data Mining"
-        - "Deep Learning"
-        - "Reinforcement Learning"
-        - "Natural Language Processing"
-        - "Intelligent Autonomous System"
-        - "Cloud Technologies"
     - period: "08/2018 - 05/2022"
       institution: "San Jose State University"
       logo: "./config/assets/icons/chalmers.jpeg"
@@ -43,6 +25,24 @@ EDUCATION:
         - "Database Management"
         - "Information Security"
         - "Software Design"
+    - period: "01/2024 - 05/2027"
+      institution: "San Jose State University"
+      logo: "./config/assets/icons/nehs.png"
+      description: |
+        M.S. in Artificial Intelligence — Expected May 2027
+        GPA: 3.95/4.0
+        Online graduate program designed for full-time working professionals, led by Professor Wencen Wu.
+      coursework:
+        - "Python"
+        - "C++"
+        - "Machine Learning"
+        - "Data Engineering"
+        - "Data Mining"
+        - "Deep Learning"
+        - "Reinforcement Learning"
+        - "Natural Language Processing"
+        - "Intelligent Autonomous System"
+        - "Cloud Technologies"
 
 EXPERIENCE:
   enabled: true
