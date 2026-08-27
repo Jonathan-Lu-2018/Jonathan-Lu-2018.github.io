@@ -57,3 +57,31 @@ EXPERIENCE:
     - period: "2015 — Present"
       position: "Creative Director"
       description: "Direct and oversee the creative process for a range of projects, from concept to execution. Lead cross-functional teams to create innovative design solutions for branding, marketing, and digital experiences. Recently led the redesign of a global brand’s digital presence, increasing online sales by 40%."
+
+LANGUAGES:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: true
+  label: "Languages"
+  items:
+    - language: "English"
+      proficiency: "100%"
+    - language: "Chinese - Cantonese"
+      proficiency: "80%"
+    - language: "Chinese - Mandarin"
+      proficiency: "60%"
+
+SKILLS:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: true
+  label: "My Skills"
+  items:
+    - skill: "Web Design"
+      proficiency: "80%"
+    - skill: "Graphic Design"
+      proficiency: "70%"
+    - skill: "Branding"
+      proficiency: "90%"
+    - skill: "WordPress"
+      proficiency: "50%"
