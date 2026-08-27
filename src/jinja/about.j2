@@ -8,32 +8,18 @@
   <section class="about-text">
     {% for line in about.PRESENTATION.description.split('\n') %}
       {% if line.strip() %}
-      <p>{{ line }}</p>
+      <p>
+        {% for part in line.split('**') %}
+          {% if loop.index % 2 == 1 %}
+            {{ part }}
+          {% else %}
+            <strong class="highlight">{{ part }}</strong>
+          {% endif %}
+        {% endfor %}
+      </p>
       {% endif %}
     {% endfor %}
   </section>
-
-  <!--- DOING -->
-  {% if about.DOING.enabled %}
-  <section class="service">
-    <h3 class="h3 service-title">What i'm doing</h3>
-    <ul class="service-list">
-      {% for item in about.DOING["items"] %}
-      <li class="service-item">
-        <div class="service-icon-box">
-          <img src="{{item.icon}}" alt="design icon" width="30" height="30">
-        </div>
-        <div class="service-content-box">
-          <h4 class="h4 service-item-title">{{item.title}}</h4>
-          <p class="service-item-text">
-            {{item.description}}
-          </p>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
 
   <!--- SKILLS -->
   {% if about.SKILLS.enabled %}
@@ -69,7 +55,7 @@
         <figure class="modal-avatar-box">
           <img src="./src/images/avatar-1.png" alt="{{profile.USER.name}}" width="80" data-modal-img>
         </figure>
-        <img src="./src/images/icon-quote.svg" alt="quote icon">
+        <img src="config/assets/icons/ellipsis.svg" alt="quote icon">
       </div>
       <div class="modal-content">
         <h4 class="h3 modal-title" data-modal-title>{{profile.USER.name}}</h4>
@@ -105,8 +91,9 @@
   </section>
   {% endif %}
 
-<!-- LANGUAGES -->
-{% if about.LANGUAGES.enabled %}
+
+  <!-- LANGUAGES -->
+  {% if about.LANGUAGES.enabled %}
   <section class="skill">
     <h3 class="h3 skills-title">{{about.LANGUAGES.label}}</h3>
     <ul class="skills-list content-card">
@@ -128,5 +115,5 @@
     </ul>
   </section>
   <br>
-{% endif %}
+  {% endif %}
 </article>
