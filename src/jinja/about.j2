@@ -1,5 +1,4 @@
 <article class="about active" data-page="about">
-
   <header>
     <h2 class="h2 article-title">{{ about.HEADER.label }}</h2>
   </header>
@@ -25,18 +24,13 @@
   <!-- SKILLS -->
   {% if about.SKILLS.enabled %}
   <section class="testimonials">
-
     <h3 class="h3 testimonials-title">
       {{ about.SKILLS.label }}
     </h3>
-
     <ul class="testimonials-list has-scrollbar">
-
       {% for item in about.SKILLS["items"] %}
       <li class="testimonials-item">
-
         <div class="content-card" data-testimonials-item>
-
           <figure class="testimonials-avatar-box">
             <img
               src="{{ item.icon }}"
@@ -45,14 +39,12 @@
               data-testimonials-avatar
             >
           </figure>
-
           <h4
             class="h4 testimonials-item-title"
             data-testimonials-title
           >
             {{ item.title }}
           </h4>
-
           <div
             class="testimonials-text"
             data-testimonials-text
@@ -61,33 +53,24 @@
               {{ item.description }}
             </p>
           </div>
-
         </div>
-
       </li>
       {% endfor %}
-
     </ul>
-
   </section>
 
 
   <!-- POPUP MODAL -->
   <div class="modal-container" data-modal-container>
-
     <div class="overlay" data-overlay></div>
-
     <section class="testimonials-modal">
-
       <button
         class="modal-close-btn"
         data-modal-close-btn
       >
         <ion-icon name="close-outline"></ion-icon>
       </button>
-
       <div class="modal-img-wrapper">
-
         <figure class="modal-avatar-box">
           <img
             src="./src/images/avatar-1.png"
@@ -96,16 +79,12 @@
             data-modal-img
           >
         </figure>
-
         <img
           src="config/assets/icons/ellipsis.svg"
           alt="quote icon"
         >
-
       </div>
-
       <div class="modal-content">
-
         <h4
           class="h3 modal-title"
           data-modal-title
@@ -116,11 +95,8 @@
         <div data-modal-text>
           <p></p>
         </div>
-
       </div>
-
     </section>
-
   </div>
   {% endif %}
 
@@ -128,23 +104,16 @@
   <!-- TECHNOLOGIES -->
   {% if about.TECHNOLOGIES.enabled %}
   <section class="clients">
-
     <h3 class="h3 clients-title">
       {{ about.TECHNOLOGIES.label }}
     </h3>
-
     {% for section in about.TECHNOLOGIES["sections"] %}
-
     <div class="technology-section">
-
       <h4 class="h4 technology-section-title">
         {{ section.title }}
       </h4>
-
       <ul class="clients-list has-scrollbar">
-
         {% for item in section["items"] %}
-
         <li
           class="clients-item"
           data-title="{{ item.title }}"
@@ -158,15 +127,10 @@
             >
           </a>
         </li>
-
         {% endfor %}
-
       </ul>
-
     </div>
-
     {% endfor %}
-
   </section>
   {% endif %}
 
@@ -174,51 +138,36 @@
   <!-- LANGUAGES -->
   {% if about.LANGUAGES.enabled %}
   <section class="skill">
-
     <h3 class="h3 skills-title">
       {{ about.LANGUAGES.label }}
     </h3>
-
     <ul class="skills-list content-card">
-
       {% for item in about.LANGUAGES["items"] %}
-
       <li class="skills-item">
-
         <div class="title-wrapper">
-
           <h5 class="h5">
             {{ item.language }}
           </h5>
-
           {% if about.LANGUAGES.display_percentage_values %}
           <data value="{{ item.proficiency[:-1] }}">
             {{ item.proficiency }}
           </data>
           {% endif %}
-
         </div>
 
         {% if about.LANGUAGES.display_progress_bars %}
         <div class="skill-progress-bg">
-
           <div
             class="skill-progress-fill"
             style="width: {{ item.proficiency }};"
           ></div>
-
         </div>
         {% endif %}
-
       </li>
-
       {% endfor %}
-
     </ul>
-
   </section>
 
   <br>
   {% endif %}
-
 </article>
