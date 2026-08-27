@@ -7,7 +7,7 @@ EDUCATION:
   items:
     - period: "08/2018 - 05/2022"
       institution: "San Jose State University"
-      logo: "./config/assets/icons/chalmers.jpeg"
+      logo: "./src/images/sjsu.jpeg"
       description: |
         B.S in Software Engineering 
         GPA: 3.58/4.0
@@ -27,7 +27,7 @@ EDUCATION:
         - "Software Design"
     - period: "01/2024 - 05/2027"
       institution: "San Jose State University"
-      logo: "./config/assets/icons/nehs.png"
+      logo: "./src/images/sjsu.jpeg"
       description: |
         M.S. in Artificial Intelligence — Expected May 2027
         GPA: 3.95/4.0
@@ -50,8 +50,8 @@ EXPERIENCE:
   items:
     - period: "07/2023 - Present"
       position: "Software Engineer @ PwC, Cloud Engineering, Data & Analytics (San Jose, CA)"
-      logo: "./config/assets/icons/sinica.png"
-      # logo_link: "https://www.stat.sinica.edu.tw/eng/index.php?"
+      logo: "./src/images/pwc.jpeg"
+      # logo_link: ""
       description: |
         Automated the provisioning of 100+ Azure and AWS cloud resources using Terraform, reducing manual deployment effort by 60% and improving environment consistency by 40%.
         Developed React, TypeScript, and Python features for an internal generative-AI accelerator, enabling consulting teams to generate and refine story-driven content for consulting use cases.
@@ -70,8 +70,8 @@ EXPERIENCE:
         - Salesforce
     - period: "07/2022 - 07/2023"
       position: "Cloud Engineer @ PwC, Cloud & Digital – Cloud Innovation & Engineering (San Jose, CA)"
-      logo: "./config/assets/icons/PathAdvisor.jpeg"
-      # logo_link: "https://pathadvisor.ust.hk/floor/Overall/at/normalized/1550,919,3"
+      logo: "./src/images/pwc.jpeg"
+      # logo_link: ""
       description: |
         Supported Microsoft 365 and Azure migration from the U.S. based infrastructure to Microsoft’s China cloud environment, addressing constraints while helping maintain business continuity during the transition.
         Developed a Java and Spring Boot banking proof-of-concept as an internal PwC technology demonstration, showcasing backend architecture and application capabilities to firm leadership.
