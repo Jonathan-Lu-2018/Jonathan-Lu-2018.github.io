@@ -48,15 +48,45 @@ EXPERIENCE:
   enabled: true
   label: "Experience"
   items:
-    - period: "2010 — 2013"
-      position: "Web Designer"
-      description: "Worked on the design and development of websites for small to medium-sized businesses. Collaborated closely with developers to ensure responsive and user-friendly designs. Led the redesign of the company’s website, improving user engagement by 25%."
-    - period: "2013 — 2015"
-      position: "Art Director"
-      description: "Led a team of designers to create visually stunning campaigns for major clients in the advertising industry. Managed the creative direction of print and digital media, ensuring consistent branding and high-quality designs. Oversaw the production of advertisements that won industry awards."
-    - period: "2015 — Present"
-      position: "Creative Director"
-      description: "Direct and oversee the creative process for a range of projects, from concept to execution. Lead cross-functional teams to create innovative design solutions for branding, marketing, and digital experiences. Recently led the redesign of a global brand’s digital presence, increasing online sales by 40%."
+    - period: "07/2023 - Present"
+      position: "Software Engineer @ PwC, Cloud Engineering, Data & Analytics (San Jose, CA)"
+      logo: "./config/assets/icons/sinica.png"
+      # logo_link: "https://www.stat.sinica.edu.tw/eng/index.php?"
+      description: |
+        Automated the provisioning of 100+ Azure and AWS cloud resources using Terraform, reducing manual deployment effort by 60% and improving environment consistency by 40%.
+        Developed React, TypeScript, and Python features for an internal generative-AI accelerator, enabling consulting teams to generate and refine story-driven content for consulting use cases.
+        Built a C# MVC data-processing pipeline supporting a global Salesforce migration engagement, transforming and validating 1,000+ business records while improving migrated-data accuracy by 25%.
+        Implemented a LangChain and OpenAI-based workflow that transformed natural-language questions into survey insights and data-analysis results.
+      technologies:
+        - Python
+        - TypeScript
+        - React
+        - C#
+        - Terraform
+        - AWS
+        - Azure
+        - LangChain
+        - OpenAI
+        - Salesforce
+    - period: "07/2022 - 07/2023"
+      position: "Cloud Engineer @ PwC, Cloud & Digital – Cloud Innovation & Engineering (San Jose, CA)"
+      logo: "./config/assets/icons/PathAdvisor.jpeg"
+      # logo_link: "https://pathadvisor.ust.hk/floor/Overall/at/normalized/1550,919,3"
+      description: |
+        Supported Microsoft 365 and Azure migration from the U.S. based infrastructure to Microsoft’s China cloud environment, addressing constraints while helping maintain business continuity during the transition.
+        Developed a Java and Spring Boot banking proof-of-concept as an internal PwC technology demonstration, showcasing backend architecture and application capabilities to firm leadership.
+        Built reusable Azure DevOps deployment automation for applications hosted on Azure China, standardizing releases across environments and reducing manual steps for PwC engineering teams.
+        Partnered with PwC engineering, DevOps, and client teams to diagnose cloud configuration and deployment issues across multi-environment consulting engagements.
+      technologies:
+        - Azure
+        - Microsoft 365
+        - Java & SpringBoot
+        - DevOps
+        - CI/CD
+        - Cloud Migration
+        - Deployment
+        - Automation
+        - Troubleshooting
 
 LANGUAGES:
   enabled: false

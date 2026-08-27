@@ -60,22 +60,68 @@
   <section class="timeline">
     <div class="title-wrapper">
       <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
+        <ion-icon name="bar-chart-outline"></ion-icon>
       </div>
       <h3 class="h3">{{resume.EXPERIENCE.label}}</h3>
     </div>
-
     <ol class="timeline-list">
-      {% for item in resume.EXPERIENCE["items"] | reverse %}
+      {% for item in resume.EXPERIENCE["items"] %}
       <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">{{item.position}}</h4>
+        <div class="timeline-item-content">
+          <h4 class="h4 timeline-item-title">
+            {% if item.logo %}
+              {% if item.logo_link %}
+              <a href="{{item.logo_link}}" target="_blank" rel="noopener noreferrer" class="position-logo-link">
+                <img src="{{item.logo}}" alt="Company logo" class="position-logo">
+              </a>
+              {% else %}
+              <img src="{{item.logo}}" alt="Company logo" class="position-logo">
+              {% endif %}
+            {% endif %}
+            {{item.position}}
+          </h4>
         <span>{{item.period}}</span>
-        <p class="timeline-text">
-          {{item.description}}
+        {% if item.description %}
+        <ul class="experience-list">
+          {% if item.description is string %}
+            {% for line in item.description.split('\n') %}
+              {% if line.strip() %}
+              <li class="experience-item">
+                {% set formatted_line = line.strip() %}
+                {% for part in formatted_line.split('**') %}
+                  {% if loop.index % 2 == 1 %}
+                    {{ part }}
+                  {% else %}
+                    <strong>{{ part }}</strong>
+                  {% endif %}
+                {% endfor %}
+              </li>
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for point in item.description %}
+            <li class="experience-item">
+              {% for part in point.split('**') %}
+                {% if loop.index % 2 == 1 %}
+                  {{ part }}
+                {% else %}
+                  <strong>{{ part }}</strong>
+                {% endif %}
+              {% endfor %}
+            </li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+        {% endif %}
+        {% if item.technologies %}
+        <p class="experience-tech">
+          <strong>⚙️ Skills:</strong>
+          {{ item.technologies | join(', ') }}
         </p>
+        {% endif %}
+        </div>
       </li>
       {% endfor %}
     </ol>
   </section>
-  {% endif %}
-</article>
+{% endif %}
