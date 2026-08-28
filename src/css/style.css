@@ -34,11 +34,12 @@
     hsl(195, 53%, 79%) 0%,
     hsla(36, 100%, 69%, 0) 50%
   );
+
   --bg-gradient-main-2:
     linear-gradient(
       135deg,
-      hsla(181, 100%, 71%, 0.25) 0%,
-      hsla(193, 100%, 68%, 0) 59.86%
+      hsla(215, 55%, 65%, 0.25) 0%,
+      hsla(215, 55%, 65%, 0) 59.86%
     ),
     hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
@@ -61,8 +62,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --main-1: hsl(195, 53%, 79%);
-  --main-2: hsl(180, 42%, 67%);
+  --main-1: hsl(200, 60%, 80%);
+  --main-2: hsl(215, 55%, 65%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --orange-yellow-crayola: hsl(45, 54%, 58%);
