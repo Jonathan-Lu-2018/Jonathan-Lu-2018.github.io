@@ -135,7 +135,7 @@ PROJECTS:
       Keywords:
       Python, MediaPipe, OpenCV, Computer Vision, Machine Learning, Hand Gesture Recognition, Image Processing, Real-Time Inference, Tkinter, PIL, Multithreading, Model Evaluation, Ablation Study
 
- - title: "AI Rock-Paper-Scissor"
+  - title: "AI Rock-Paper-Scissor"
     category: "Game Development"
     image: "src/images/leetcoach.png"
     url: ""
@@ -153,4 +153,3 @@ PROJECTS:
 
       Keywords:
       Python, OpenCV, MediaPipe, CVZone, Computer Vision, Hand Tracking, Hand Gesture Recognition, Image Processing, Real-Time Video Processing, Game Development
-
