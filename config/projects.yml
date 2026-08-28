@@ -41,7 +41,7 @@ PROJECTS:
       Java, Spring Boot, React, JavaScript, MySQL, AWS, EC2, REST API, Full-Stack Development, Three-Tier Architecture, Authentication, Database Design, Cloud Deployment, E-Commerce
 
   - title: "Slice"
-    category: "Full Stack Development"
+    category: "Full-Stack Development"
     image: "src/images/slice.png"
     url: ""
     report_url: ""
@@ -61,7 +61,7 @@ PROJECTS:
 
   - title: "iSky"
     category: "Web Development"
-    image: "src/images/slice.png"
+    image: "src/images/isky.png"
     url: ""
     report_url: ""
     detail: |
@@ -77,3 +77,80 @@ PROJECTS:
 
       Keywords:
       JavaScript, React.js, Node.js, HTML, CSS, REST API, OpenWeatherMap, Google Maps, Travel Advisor API, API Integration, Frontend Development, Web Development, Git, Netlify, Agile Development
+
+  - title: "LeetCoach"
+    category: "AI & Machine Learning"
+    image: "src/images/leetcoach.png"
+    url: ""
+    report_url: ""
+    detail: |
+      Description: 
+      An AI-powered Chrome extension that provides contextual coding assistance directly within LeetCode, helping users debug solutions, understand algorithms, and improve code without leaving the problem page.
+      The extension automatically detects LeetCode problems and extracts in-editor code, integrating multiple LLM providers to generate targeted hints, debugging guidance, complexity analysis, and code improvements.
+      Provides an interactive developer tool designed to streamline technical interview preparation while encouraging logic-first problem solving.
+
+      Key Technology & Contributions:
+      - Developed a Chrome extension using JavaScript and Chrome Manifest V3 that automatically detects LeetCode problems, extracts editor code and programming language context, and provides an integrated side-panel assistant.
+      - Integrated OpenAI, Google Gemini, and Anthropic Claude APIs with dynamic model selection, enabling users to receive contextual debugging assistance, algorithm explanations, targeted hints, and time/space complexity analysis.
+      - Implemented Chrome content scripts, background service workers, runtime messaging, and LeetCode SPA navigation detection to synchronize problem context and AI-assisted recommendations without requiring users to manually copy code between applications.
+
+      Keywords:
+      JavaScript, Chrome Extension, Manifest V3, OpenAI API, Google Gemini API, Anthropic Claude API, Large Language Models, Generative AI, REST API, Prompt Engineering, Developer Tools, Algorithms, LeetCode, Browser Extensions
+
+  - title: "SmartStay"
+    category: "AI & Machine Learning"
+    image: "src/images/smartstay.png"
+    url: ""
+    report_url: ""
+    detail: |
+      Description: 
+      A machine learning-powered Airbnb recommendation system that provides personalized California lodging recommendations based on user preferences including location, budget, property type, amenities, guest count, and ratings.
+      The application combines content-based filtering, collaborative filtering, popularity scoring, and recency signals into a hybrid recommendation engine while providing AI-generated explanations for recommended listings.
+      Provides an interactive Streamlit interface for exploring listings, comparing recommendation models, and analyzing recommendation quality.
+
+      Key Technology & Contributions:
+      - Developed a hybrid recommendation system combining content-based filtering, collaborative filtering, popularity scoring, and time-based recency signals to generate personalized Airbnb recommendations.
+      - Implemented machine learning techniques using scikit-learn, including TF-IDF, cosine similarity, and k-nearest neighbors, with model evaluation across Precision@K, Coverage, Diversity, and Novelty metrics.
+      - Built an interactive Streamlit application with configurable user preferences, Plotly data visualizations, side-by-side recommendation model comparisons, and Google Gemini integration for AI-generated explanations of recommended listings.
+
+      Keywords:
+      Python, Machine Learning, Recommendation Systems, Scikit-learn, Collaborative Filtering, Content-Based Filtering, K-Nearest Neighbors, TF-IDF, Cosine Similarity, Google Gemini, Streamlit, Plotly, Data Visualization, Model Evaluation
+
+  - title: "Hand Gesture Recognizer"
+    category: "AI & Machine Learning"
+    image: "src/images/handgesture.png"
+    url: ""
+    report_url: ""
+    detail: |
+      Description: 
+      A real-time computer vision application that recognizes hand gestures from live webcam input using MediaPipe-based hand tracking and gesture recognition.
+      The application processes video frames using OpenCV, detects hand landmarks and gestures, and displays predictions with confidence scores through an interactive desktop interface.
+      Includes performance evaluation, latency testing, robustness analysis, and ablation experiments to assess recognition accuracy and system behavior under varying conditions.
+
+      Key Technology & Contributions:
+      - Developed a real-time hand gesture recognition pipeline using Python, MediaPipe, and OpenCV to process webcam input, detect hand landmarks, classify gestures, and display prediction confidence.
+      - Built an interactive Tkinter interface with multithreaded video processing, real-time gesture visualization, start/stop controls, and automated gesture-based image capture for dataset collection.
+      - Evaluated recognition performance through accuracy analysis, latency testing, robustness experiments, and normalization/image-space ablation studies to assess model behavior across different input conditions.
+
+      Keywords:
+      Python, MediaPipe, OpenCV, Computer Vision, Machine Learning, Hand Gesture Recognition, Image Processing, Real-Time Inference, Tkinter, PIL, Multithreading, Model Evaluation, Ablation Study
+
+ - title: "AI Rock-Paper-Scissor"
+    category: "Game Development"
+    image: "src/images/leetcoach.png"
+    url: ""
+    report_url: ""
+    detail: |
+      Description: 
+      A real-time computer vision Rock-Paper-Scissors game that enables players to compete against a computer using hand gestures captured through a webcam.
+      The application leverages MediaPipe-based hand tracking, CVZone, and OpenCV to detect hand landmarks, recognize Rock, Paper, and Scissors gestures, and determine game outcomes in real time.
+      Provides an interactive vision-based gaming experience with live gesture recognition, score tracking, timed rounds, and automated gameplay.
+
+      Key Technology & Contributions:
+      - Developed a real-time computer vision pipeline using Python, OpenCV, CVZone, and MediaPipe to capture webcam input, detect hand landmarks, and recognize Rock, Paper, and Scissors gestures.
+      - Implemented gesture classification based on detected finger positions, translating hand-tracking data into player moves and integrating the results with automated game logic.
+      - Built an interactive game loop featuring timed rounds, randomized computer moves, real-time score tracking, graphical overlays, and automated screenshot collection of player gestures.
+
+      Keywords:
+      Python, OpenCV, MediaPipe, CVZone, Computer Vision, Hand Tracking, Hand Gesture Recognition, Image Processing, Real-Time Video Processing, Game Development
+
