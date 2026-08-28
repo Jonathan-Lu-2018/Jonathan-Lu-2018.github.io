@@ -137,7 +137,7 @@ PROJECTS:
 
   - title: "AI Rock-Paper-Scissor"
     category: "Game Development"
-    image: "src/images/leetcoach.png"
+    image: "src/images/rockpaper.png"
     url: ""
     report_url: ""
     detail: |
